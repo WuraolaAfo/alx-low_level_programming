@@ -1,4 +1,4 @@
-#include "main.n"
+#include "main.h"
 
 /**
 *_abs - compute the absolute value of a number
@@ -8,5 +8,5 @@
 
 int _abs(int i)
 {
-	return (i);
+	return (i < 0 ? -i : i);
 }
